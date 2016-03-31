@@ -1,0 +1,10 @@
+<%@ val name: String %>
+<html>
+    <body>
+        <% for(a<- (1 to 10)) { %>
+        <h1><%=a%>) Hi <%=name%>, welcome to Sinatra</h1>
+        <% } %>
+    </body>
+
+</html>
+
