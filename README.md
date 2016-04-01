@@ -112,7 +112,7 @@ class MyApp {
 
         class MyServer extends RackServer {{
             port = 8081;
-            map("/").onto(new HelloSinatra());
+            map("/").onto(new HelloRack());
         }}
 
         new MyServer().start()
